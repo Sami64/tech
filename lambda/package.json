@@ -1,0 +1,16 @@
+{
+	"name": "tech_api",
+	"version": "1.0.0",
+	"main": "app.js",
+	"author": "Samuel Kow Paintsil",
+	"license": "MIT",
+	"scripts": {
+		"test": "node -e \"(async () => console.log(await require('./index').handler({})))();\""
+	},
+	"dependencies": {
+		"aws-sdk": "^2.1102.0",
+		"axios": "^0.26.1",
+		"redis": "^4.0.4"
+	},
+	"devDependencies": {}
+}
